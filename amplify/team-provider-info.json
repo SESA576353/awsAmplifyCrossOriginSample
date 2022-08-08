@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-angularcrossorigin-dev-170341-authRole",
+      "UnauthRoleArn": "arn:aws:iam::519619185353:role/amplify-angularcrossorigin-dev-170341-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::519619185353:role/amplify-angularcrossorigin-dev-170341-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-angularcrossorigin-dev-170341-deployment",
+      "UnauthRoleName": "amplify-angularcrossorigin-dev-170341-unauthRole",
+      "StackName": "amplify-angularcrossorigin-dev-170341",
+      "StackId": "arn:aws:cloudformation:us-east-1:519619185353:stack/amplify-angularcrossorigin-dev-170341/ce34ef70-118d-11ed-849a-0e51dd2ef81d",
+      "AmplifyAppId": "d3qz2a9tlgqfj1"
+    },
+    "categories": {
+      "function": {
+        "userslambda": {
+          "deploymentBucketName": "amplify-angularcrossorigin-dev-170341-deployment",
+          "s3Key": "amplify-builds/userslambda-6b72317556785358524a-build.zip"
+        }
+      }
+    }
+  }
+}

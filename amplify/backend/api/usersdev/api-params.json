@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/users",
+      "lambdaFunction": "userslambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/users"
+    }
+  ],
+  "resourceName": "usersdev",
+  "apiName": "usersdev",
+  "functionArns": [
+    {
+      "lambdaFunction": "userslambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-angularcrossorigin-dev-170341-authRole",
+    "unAuthRoleName": "amplify-angularcrossorigin-dev-170341-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "userslambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
